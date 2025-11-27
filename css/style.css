@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFF9F2;
+    color: #4B3621;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #6F4E37 !important;
+}
+
+.nav-link {
+    color: #4B3621 !important;
+}
+
+.nav-link:hover {
+    color: #6F4E37 !important;
+}
+
+.btn-coffee {
+    background-color: #6F4E37;
+    color: #FFF9F2;
+}
+
+.btn-coffee:hover {
+    background-color: #4B3621;
+    color: #FFF9F2;
+}
+
+footer {
+    background-color: #F5EFE6;
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #F5EFE6;
+    border: 1px solid #DDD0C1;
+}
+
+.progress-bar {
+    background-color: #6F4E37;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+    /* your other styles */
+    
+    .project-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .project-card:hover img {
+        transform: scale(1.05);
+    }
+
+    .project-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .btn-coffee {
+        background-color: #C7A27C;
+        color: white;
+        border-radius: 10px;
+        transition: 0.3s ease;
+    }
+
+    .btn-coffee:hover {
+        background-color: #a9744f;
+        box-shadow: 0 0 10px rgba(169, 116, 79, 0.6);
+        color: white;
+    }
+
+
+    .project-img {
+        max-width: 500px;   /* same max size for all images */
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto; /* centers image */
+    }
+    
